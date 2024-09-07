@@ -88,5 +88,45 @@ a {
 
 .placeholder {
   color: #E5E7EB;
+}
 
+.information {
+  padding: 30px 130px 60px 130px;
+}
+
+.information-header {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.subtext-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
+}
+
+.box {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #3882F6;
+  border-radius: 12px;
+}
+
+.subtext-text {
+  width: 150px;
+  color: rgb(128, 128, 128);
 }
