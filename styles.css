@@ -130,3 +130,25 @@ a {
   width: 150px;
   color: rgb(128, 128, 128);
 }
+
+.quotes {
+  background-color: #E5E7EB;
+  padding: 80px 130px 80px 130px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes-text {
+  font-size: 28px;
+  font-style: italic;
+  color: #1f2937cc;
+  width: 650px;
+}
+
+.quotes-author {
+  align-self: flex-end;
+  margin-right: 14px;
+  font-weight: 800;
+}
