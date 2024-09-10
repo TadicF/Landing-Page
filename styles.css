@@ -75,6 +75,12 @@ a {
   font-size: 12px;
   width: 90px;
   margin-top: 4px;
+  transition: background-color 0.15s;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background-color: #1462df;
 }
 
 .right-header {
@@ -186,6 +192,13 @@ a {
   color: white;
   padding: 4px 25px;
   border-radius: 6px;
+  transition: background-color 0.15s, color 0.15s;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: white;
+  color: #3882F6;
 }
 
 .footer {
