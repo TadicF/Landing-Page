@@ -6,7 +6,7 @@ body {
 .header {
   background-color: #1F2937;
   margin: 0;
-  padding: 8px 100px 80px 100px;
+  padding: 8px 250px 80px 250px;
 }
 
 .upper-header {
@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 80px;
+  flex-shrink: 0;
 }
 
 .header-logo {
@@ -43,14 +44,15 @@ a {
   text-align: start;
   flex: 1;
   gap: 40px;
+  height: 200px;
 }
 
 .left-header {
   display: flex;
   flex-direction: column;
-  flex: 1;
-  width: 150px;
+  width: 450px;
   gap: 4px;
+  flex-wrap: nowrap;
 }
 
 .hero-main {
@@ -63,7 +65,6 @@ a {
 .hero-secondary {
   color: #E5E7EB;
   font-size: 18px;
-
 }
 
 .signup-button {
@@ -88,8 +89,9 @@ a {
   justify-content: center;
   align-items: center;
   background-color: gray;
-  flex: 1;
   align-self: stretch;
+  min-width: 200px;
+  width: 500px;
 }
 
 .placeholder {
@@ -97,23 +99,25 @@ a {
 }
 
 .information {
-  padding: 30px 130px 60px 130px;
+  padding: 50px 130px 60px 130px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .information-header {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
-  margin-left: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
 }
 
 .subtext-container {
   display: flex;
   justify-content: space-between;
+  width: 700px;
 }
 
 .subtext {
@@ -122,7 +126,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 6px;
+  gap: 24px;
 }
 
 .box {
@@ -154,22 +158,27 @@ a {
 }
 
 .quotes-author {
-  align-self: flex-end;
+  margin-left: 500px;
   margin-right: 14px;
   font-weight: 800;
 }
 
 .subsection {
-  padding: 60px 100px 60px 100px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .cta-section {
+  width: 700px;
   background-color: #3882F6;
-  padding: 35px 70px 35px 70px;
+  padding: 35px 80px 35px 80px;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 50px;
 }
 
 .text-section {
